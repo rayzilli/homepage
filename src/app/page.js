@@ -14,7 +14,7 @@ export default function Home() {
         />
       </div>
      
-     <div className='flex items-center animation-pulse font-mono text-slate-600 dark:text-slate-400'>
+     <div className='flex items-center animation-pulse font-mono text-slate-500 dark:text-slate-400'>
       <a href='mailto:hello@rayzilli.com'>hello@rayzilli.com</a>
      </div>
      
