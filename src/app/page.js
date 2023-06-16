@@ -4,7 +4,9 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center  mt-24 p-6 gap-2" >
    
-      <div className="relative flex place-items-center blur-sm  brightness:-110 hover:filter-none ease-in duration-300">
+      <div className="flex place-items-center animate-wiggle">
+        <div className="animate-fadeInBlur">
+
         <Image
           src="/images/enter.jpeg"
           alt="email me"
@@ -12,6 +14,7 @@ export default function Home() {
           height={200}
           priority
         />
+      </div>
       </div>
      
      <div className='flex items-center animation-pulse font-mono text-slate-500 dark:text-slate-400'>
